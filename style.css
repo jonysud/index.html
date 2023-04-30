@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h4 {
+    background-color: chartreuse;
+
+}
+#primer-h4 {
+    background-color:black;color: aliceblue;
+}
+nav{
+    background-color:gold;
+    color: black;
+
+}
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/524/453/small/luxury-beige-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.sexto-h6 {
+    color: blue;
+    font-size: medium;
+}  
+#header-logo {
+    background-color:azure;color: aliceblue;
+    width: 800px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    background-color: gray;
+    color: beige;
+}
+
+#footer-contenido {
+    width: 800px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.caja1{
+    background-color:forestgreen;
+    color: black;
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 30px red ;
+}
+h3{
+    display: inline;
+    background-color: blueviolet;
+    margin-left: 15px;
+    margin-right: 15px; 
+
+}
+h9{
+    display: inline-block;
+    background-color:yellowgreen;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-top: 15px;
+    
+
+}
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: #aaa;
+    position: relative;
+    left: 1000px;
+    position: fixed;
+}
+.circulo{
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    border-radius: 50%;
+    position:fixed;
+    left: 48;
+    top:48;
+    
+}
+.box{
+    background-color: cadetblue;
+    width: 120px;
+    height: 120px;
+    padding: 2px;
+    border: 5px solid black;  
+    display:flex ;  
+}
+.caj1{
+    background-color: red;
+
+    
+}
+.caj2{
+    background-color:darkblue;
+    color: white;
+}
+.caj2{
+    background-color:darkgoldenrod;
+    color: white;
+}
+.contenedor{
+    display:flex;
+    justify-content: space-between;
+}
+.contenedor-redes{
+    display:flex;
+    
+}
+a:hover{
+    color: blueviolet;
+    background-color: burlywood;
+    font-size: x-large;
+    
+}
+a{
+    margin-left: 15px; 
+    background-color: aquamarine;
+    
+    
+}
+a:active{
+    color: yellow;
+    
+    
+}
+.caj1:hover{
+    background-color: brown;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+.texto-imagen{
+    background-color: brown;
+    overflow: hidden;
+    
+}
+@media (max-width: 350px) {
+    
+    body {
+        background-color: aqua;
+    }
+}
